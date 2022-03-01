@@ -9,7 +9,7 @@ export default styled('button', {
 	'&:hover': { cursor: 'pointer' },
 
 	variants: {
-		size: {
+		appearance: {
 			primary: {
 				height: 65,
 				backgroundColor: '$tertiary',
@@ -36,6 +36,6 @@ export default styled('button', {
 	},
 
 	defaultVariants: {
-		size: 'primary',
+		appearance: 'primary',
 	},
 });

@@ -2,7 +2,6 @@ import { HamburgerMenuIcon as HMIcon } from '@radix-ui/react-icons';
 import { styled } from 'stitches.config';
 
 export const Navbar = styled('nav', {
-	background: '$backgroundGradient',
 	d: 'flex',
 	p: 16,
 });

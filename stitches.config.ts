@@ -1,8 +1,8 @@
 import { createStitches } from '@stitches/react';
 import type * as Stitches from '@stitches/react';
 import { colors } from './src/styles/colors';
-export type { VariantProps } from '@stitches/react';
 
+export type { VariantProps } from '@stitches/react';
 export const {
 	styled,
 	css,

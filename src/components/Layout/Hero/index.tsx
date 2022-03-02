@@ -8,7 +8,11 @@ const Hero = () => {
 			<Flex direction='column' css={{ py: 50, gap: 60 }}>
 				<Title />
 				<HeroImage />
-				<Button appearance='primary'>Try for free</Button>
+				<Flex align='center' justify='center'>
+					<Button appearance='primary' css={{ width: 236 }}>
+						Try for free
+					</Button>
+				</Flex>
 			</Flex>
 		</Box>
 	);

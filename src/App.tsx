@@ -1,5 +1,5 @@
 import { Box } from '@/components';
-import { Hero, Navbar } from '@/components/Layout';
+import { Navbar, Hero, Feature } from '@/components/Layout';
 
 function App() {
 	return (
@@ -8,6 +8,8 @@ function App() {
 				<Navbar />
 				<Hero />
 			</Box>
+
+			<Feature />
 		</>
 	);
 }

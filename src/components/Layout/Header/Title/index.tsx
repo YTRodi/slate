@@ -3,7 +3,7 @@ import { Box, Subtitle, Flex, Subheading } from '@/components';
 const Title = () => (
 	<Box css={{ p: 10, ta: 'center' }}>
 		<Box css={{ p: 10 }}>
-			<Subtitle color='textLight'>Lightning fast prototyping</Subtitle>
+			<Subtitle color='textLight'>We focus on ergonomics</Subtitle>
 		</Box>
 
 		<Flex direction='column' css={{ p: 10 }}>

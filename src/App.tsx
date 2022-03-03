@@ -1,12 +1,12 @@
 import { Box } from '@/components';
-import { Navbar, Hero, Feature } from '@/components/Layout';
+import { Navbar, Header, Feature } from '@/components/Layout';
 
 function App() {
 	return (
 		<>
 			<Box css={{ background: '$backgroundGradient' }}>
 				<Navbar />
-				<Hero />
+				<Header />
 			</Box>
 
 			<Feature />

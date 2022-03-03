@@ -1,5 +1,4 @@
-import { Box } from '@/components';
-import { Navbar, Header, Feature } from '@/components/Layout';
+import { Box, Navbar, Header, Feature, Hero } from '@/components';
 
 function App() {
 	return (
@@ -10,6 +9,7 @@ function App() {
 			</Box>
 
 			<Feature />
+			<Hero />
 		</>
 	);
 }

@@ -23,6 +23,7 @@ yarn install
 ## Available scripts
 
 ### `yarn dev`
+
 Runs the app in development mode.
 Open https://localhost:3000 to view it in the browser or use `--open` option.
 
@@ -30,7 +31,9 @@ The page will automatically reload if you make changes to the code.
 You will see the build errors and lint warnings in the console.
 
 ### `yarn build`
+
 Build for production.
 
 ### `yarn preview`
+
 Locally preview production build.
